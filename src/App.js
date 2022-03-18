@@ -1,8 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-import { useEffect, useState } from 'react';
-import { isCompositeComponent } from 'react-dom/test-utils';
-const countriesStyle = {
+import Countries from './components/Countries/Countries';
+
+
+function App() {
+  return (
+    <div className="App">
+      <Countries></Countries>
+    </div>
+  );
+}
+
+
+
+export default App;
+
+
+
+// rest countries by react
+/* const countriesStyle = {
   backgroundColor: 'lightBlue',
   margin: '20px',
   padding: '20px',
@@ -55,5 +71,4 @@ const
       </div>
     )
   }
-
-export default App;
+ */
